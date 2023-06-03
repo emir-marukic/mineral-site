@@ -303,3 +303,7 @@ header {
   font-size: 15px;
   font-weight: 400;
 }
+.footer-social-media a {
+  color: #fff;
+  text-decoration: none;
+}
