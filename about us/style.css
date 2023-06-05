@@ -59,21 +59,21 @@ header {
   display: flex;
   align-items: center;
 }
-.materials-bg {
+.about-bg {
   background-image: linear-gradient(
       rgba(73, 130, 125, 0.5),
       rgba(73, 130, 125, 0.3),
       rgba(73, 130, 125, 0.3),
       rgba(73, 130, 125, 0.1)
     ),
-    url("/materials/img/image\ 74.png");
+    url("./img/image\ 77\ \(1\).png");
   width: 100%;
   height: 1074px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 100px;
 }
-.materials-bg h1 {
+.about-bg h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,28 +81,26 @@ header {
   font-size: 48px;
   color: #fff;
 }
-.materials {
-  width: 80%;
+.about-txt {
+  width: 70%;
   margin: auto;
-}
-.materials-row-1 {
+  height: 400px;
+  background-color: #3f6d69;
+  font-size: 26px;
+  line-height: 200%;
   display: flex;
-}
-.materials-row-2 {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: start;
-  width: 500px;
-  /* background-color: #3f3f3f; */
-  gap: 30px;
+  padding: 100px;
+  color: #fff;
+  margin-bottom: 200px;
 }
-.materials-row-2 p {
-  margin-right: 40px;
-  height: 100px;
-  color: #3f6d69;
-  font-size: 24px;
-  font-weight: 600;
+.img {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.img img {
+  width: 100%;
 }
 .footer-sign {
   background-color: #3f6d69;
